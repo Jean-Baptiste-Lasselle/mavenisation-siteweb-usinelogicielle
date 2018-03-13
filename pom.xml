@@ -14,11 +14,6 @@
 				<version>0.0.4-SNAPSHOT</version>
 				<configuration>
 
-
-
-
-
-
 					<!-- topologie de la cible de déploiement -->
 					<repertoire-deploiement-scala>/home/lauriane/software-factory-website</repertoire-deploiement-scala>
 					<!-- COMPOSANT SRV SCALA -->
@@ -63,12 +58,12 @@
 					<!-- répertoire dansle projet maven, où se truve le code source de l'applciations scala -->
 					<repertoire-code-scala>scalatron</repertoire-code-scala>
 					<!-- repo code source application scala -->
-						<url-repo-git-app-scala>https://github.com/Jean-Baptiste-Lasselle/siteweb-usinelogicielle.com</url-repo-git-app-scala>
+					<url-repo-git-app-scala>https://github.com/Jean-Baptiste-Lasselle/siteweb-usinelogicielle.com</url-repo-git-app-scala>
 					<nom-repo-git-app-scala>siteweb-usinelogicielle.com</nom-repo-git-app-scala>
 
 					<!-- repo git assistant du plugin -->
-							<url-repo-git-deploiements>https://github.com/Jean-Baptiste-Lasselle/deploiement-usine-logicielle.com</url-repo-git-deploiements>
-							<nom-repo-git-deploiements>deploiement-usine-logicielle.com</nom-repo-git-deploiements>
+					<url-repo-git-deploiements>https://github.com/Jean-Baptiste-Lasselle/deploiement-usine-logicielle.com</url-repo-git-deploiements>
+					<nom-repo-git-deploiements>deploiement-usine-logicielle.com</nom-repo-git-deploiements>
 <!-- 							<git-username>Jean-Baptiste-Lasselle</git-username> -->
 <!-- 							<git-userpwd>****</git-userpwd> -->
 					<!-- vous devez choisir un répertoire qui pourra être librement utilisé 
@@ -82,7 +77,7 @@
 					<execution>
 						<phase>install</phase>
 						<goals>
-							<goal>deploie-app-scala</goal>
+							<goal>deploy-scala-app</goal>
 							
 <!-- 							                                            -->
 <!-- 							Mapping opérations standard / goals maven   -->
@@ -94,11 +89,6 @@
 							
 						</goals>
 						<configuration>
-
-
-
-
-
 
 							<!-- topologie de la cible de déploiement -->
 							<repertoire-deploiement-scala>/home/lauriane/software-factory-website</repertoire-deploiement-scala>
