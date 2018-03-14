@@ -64,14 +64,11 @@
 					<!-- repo git assistant du plugin -->
 					<url-repo-git-deploiements>https://github.com/Jean-Baptiste-Lasselle/deploiement-usine-logicielle.com</url-repo-git-deploiements>
 					<nom-repo-git-deploiements>deploiement-usine-logicielle.com</nom-repo-git-deploiements>
-<!-- 							<git-username>Jean-Baptiste-Lasselle</git-username> -->
-<!-- 							<git-userpwd>****</git-userpwd> -->
+					
 					<!-- vous devez choisir un répertoire qui pourra être librement utilisé 
 						par le plugin maven -->
-<!-- 							<repertoire-repo-git-local>C:\moi\mes_repos_git\tempmvnautobuild2</repertoire-repo-git-local> -->
-					<!-- <repertoire-repo-git-local>C:\\moi\\mes_repos_git\\tempmvnautobuild</repertoire-repo-git-local> -->
-					<!-- <repertoire-repo-git-local>C:\\moi\\mes_repos_git/tempmvnautobuild</repertoire-repo-git-local> -->
-
+					<!-- Permet à l'utilisateur du plugin de préciser une liste de valeurs à passer à l'exécution de l'applciation Scala -->
+					<exec-args-scala-app>-Dplay.evolutions.db.default.autoApply=true</exec-args-scala-app>
 				</configuration>
 				<executions>
 					<execution>
