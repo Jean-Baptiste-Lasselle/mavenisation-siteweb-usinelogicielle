@@ -15,7 +15,7 @@
 				<configuration>
 
 					<!-- topologie de la cible de déploiement -->
-					<repertoire-deploiement-scala>/home/lauriane/software-factory-website</repertoire-deploiement-scala>
+					<repertoire-deploiement-scala>/home/lauriane/execution-appli-scala</repertoire-deploiement-scala>
 					<!-- COMPOSANT SRV SCALA -->
 					<!-- Cette configuration permet de définir quel est le serveur jee 
 						dans lequel déployer le war buildé. -->
